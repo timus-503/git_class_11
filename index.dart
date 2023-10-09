@@ -18,6 +18,6 @@ int multiply(int a, int b) {
   return a * b;
 }
 
-bool checkUnique(List<int> items) {
-  return items.length == items.toSet().length;
+bool checkEven(int value) {
+  return value.isEven;
 }
